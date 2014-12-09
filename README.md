@@ -59,9 +59,7 @@ $(document).ready(function(){
 ---
 
 - 雪花的下落消失位置暂不可可设
-- 还需设置snow-box外部样式 
-- Gsnow功能不够完善
-- 雪花样式单一
+- 还需设置snow-box外部样式
 - 除雪花外扩展新的效果
 
 ---
