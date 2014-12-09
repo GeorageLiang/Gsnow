@@ -1,21 +1,20 @@
+<!doctype html>
 <html>
 <head>
-  <link rel="stylesheet" href="css/Gsnow.css">
+ 	<link rel="stylesheet" href="css/Gsnow.css">
 </head>
 <body  style="background-color:black; height:100%; overflow:hidden">
 	<div style="overflow:hidden;height:100%;width:100%;position:absolute">
 	<div class="snow-box" ></div>
 </div>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/Gsnow.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		var snowbody = $(".snow-box");
+	    snowbody.creatsnow(100);
+	    snowbody.started(0.5);
+	});
+	</script>
 </body>
-<script src="js/jquery-1.8.3.min.js"></script>
-<script src="js/Gsnow.min.js"></script>
-<script>
-$(document).ready(function(){
- var snowbody = $(".snow-box");
-     snowbody.creatsnow(100);
-     snowbody.started(0.5);
-
-});
-
-</script>
 </html>
