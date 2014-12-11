@@ -26,7 +26,7 @@ Gsnow
 </head>
 <body  style="background-color:black; height:100%; overflow:hidden">
 	<div style="overflow:hidden;height:100%;width:100%;position:absolute">
-	<div class="snow-box" ></div>
+	<div class="snow-box"style="width:100%;height:400px">
 </div>
 </body>
 <script src="js/jquery-1.8.3.min.js"></script>
@@ -60,7 +60,6 @@ $(document).ready(function(){
 ---
 
 - 雪花的下落消失位置暂不可可设
-- 还需设置snow-box外部样式 
 - Gsnow功能不够完善
 - 雪花样式单一
 - 除雪花外扩展新的效果
